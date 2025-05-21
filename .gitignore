@@ -59,3 +59,5 @@ client/shade/dependency-reduced-pom.xml
 
 #OS X stuff
 .DS_Store
+
+.mvn/.develocity
