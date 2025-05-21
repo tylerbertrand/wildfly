@@ -476,6 +476,30 @@
                         </execution>
                     </executions>
                 </plugin>
+                <plugin>
+                    <groupId>com.gradle</groupId>
+                    <artifactId>develocity-maven-extension</artifactId>
+                    <configuration>
+                        <develocity>
+                            <plugins>
+                                <plugin>
+                                    <groupId>org.apache.maven.plugins</groupId>
+                                    <artifactId>maven-surefire-plugin</artifactId>
+                                    <inputs>
+                                        <fileSets>
+                                            <fileSet>
+                                                <name>server.jvm.args</name>
+                                                <paths>
+                                                    <path>${server.jvm.args}</path>
+                                                </paths>
+                                            </fileSet>
+                                        </fileSets>
+                                    </inputs>
+                                </plugin>
+                            </plugins>
+                        </develocity>
+                    </configuration>
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
