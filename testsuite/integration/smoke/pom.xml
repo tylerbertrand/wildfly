@@ -488,9 +488,33 @@
                                     <inputs>
                                         <fileSets>
                                             <fileSet>
-                                                <name>server.jvm.args</name>
+                                                <name>jbossas.ts.integ.dir</name>
                                                 <paths>
-                                                    <path>${server.jvm.args}</path>
+                                                    <path>/Users/tbertrand/dev/commonhaus/wildfly/testsuite/integration/smoke/..</path>
+                                                </paths>
+                                            </fileSet>
+                                            <fileSet>
+                                                <name>jbossas.ts.dir</name>
+                                                <paths>
+                                                    <path>/Users/tbertrand/dev/commonhaus/wildfly/testsuite/integration/smoke/../..</path>
+                                                </paths>
+                                            </fileSet>
+                                            <fileSet>
+                                                <name>jbossas.project.dir</name>
+                                                <paths>
+                                                    <path>/Users/tbertrand/dev/commonhaus/wildfly/testsuite/integration/smoke/../../..</path>
+                                                </paths>
+                                            </fileSet>
+                                            <fileSet>
+                                                <name>jboss.dist</name>
+                                                <paths>
+                                                    <path>/Users/tbertrand/dev/commonhaus/wildfly/testsuite/integration/smoke/target/wildfly</path>
+                                                </paths>
+                                            </fileSet>
+                                            <fileSet>
+                                                <name>java.io.tmpdir</name>
+                                                <paths>
+                                                    <path>/Users/tbertrand/dev/commonhaus/wildfly/testsuite/integration/smoke/target</path>
                                                 </paths>
                                             </fileSet>
                                         </fileSets>
